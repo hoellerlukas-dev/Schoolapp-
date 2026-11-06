@@ -16,7 +16,7 @@
 SchulApp: React + TypeScript + Tailwind (Vite). Beispieldaten in `src/data/demo.ts`.
 
 # Produkt-Entscheidungen
-- Ziel: verkaufbares Schulsystem (WebUntis-Alternative) für **Deutschland** (Noten 1–6, Oberstufe 0–15 Punkte, DSGVO).
+- Ziel: verkaufbares Schulsystem (WebUntis-Alternative) für **alle Schulen in allen 16 Bundesländern** (Noten 1–6, Oberstufe 0–15 Punkte, DSGVO). Nichts fest auf eine Schule/ein Bundesland zuschneiden: Ferien, Feiertage, Schulformen, Notenregeln pro Schule einstellbar.
 - Rollen: Schüler, Lehrer, Eltern, Schulleitung/Admin.
 - Kern: Stundenplan + Vertretungen, Noten + Durchschnittsrechner, Chat mit Lehrern, Fehlstunden/Entschuldigungen, Kalender. Moderne, einfache UI, Handy zuerst.
 - Technik: erst Web-App (PWA), später App-Store. Backend später: Supabase (EU).

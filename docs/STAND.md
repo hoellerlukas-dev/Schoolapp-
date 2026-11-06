@@ -11,4 +11,4 @@
 Bereich Kommunikation: Chat mit Lehrern, Elternbriefe mit Lesebestätigung, Elternsprechtag buchen (Beispieldaten).
 
 ## Offene Fragen an den Nutzer
-- Bundesland der ersten Schule (für Ferien/Feiertage)
+- keine
