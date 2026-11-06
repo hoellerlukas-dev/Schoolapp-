@@ -7,8 +7,11 @@
 - Analyse Schulmanager → `docs/ANALYSE-SCHULMANAGER.md`, Fahrplan → `docs/FUNKTIONEN.md`
 - 6 Skills in `.claude/skills/`; `.mcp.json` startet REA-Server (`rea-agents`, Drittanbieter)
 
+- Kommunikation (Seite „Nachrichten“): Chat, Elternbriefe mit Lesebestätigung/Rückmeldung, Elternsprechtag buchen, Infos
+- REA bleibt im Projekt (Nutzerwunsch)
+
 ## Als Nächstes
-Bereich Kommunikation: Chat mit Lehrern, Elternbriefe mit Lesebestätigung, Elternsprechtag buchen (Beispieldaten).
+Schritt 2: Abwesenheit – Krankmeldung, Entschuldigung, Fehlstunden-Statistik (Beispieldaten).
 
 ## Offene Fragen an den Nutzer
 - keine

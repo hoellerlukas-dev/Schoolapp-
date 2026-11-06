@@ -39,11 +39,11 @@ Status: [x] fertig (Demo) · [ ] offen
 
 ## F. Kommunikation
 - [x] Neuigkeiten (Anzeige)
-- [ ] Chat / Messenger (Lehrer ↔ Eltern/Schüler)
-- [ ] Elternbriefe mit Lesebestätigung & Rückmeldung (z. B. Einverständnis Ausflug)
+- [x] Chat / Messenger (Lehrer ↔ Eltern/Schüler) – Demo
+- [x] Elternbriefe mit Lesebestätigung & Rückmeldung (z. B. Einverständnis Ausflug) – Demo
 - [ ] Umfragen
 - [ ] Geplante Nachrichten, Verteiler, automatische Übersetzung für Eltern
-- [ ] Sprechstunden & Elternsprechtag buchen
+- [x] Sprechstunden & Elternsprechtag buchen – Demo (Elternsprechtag)
 
 ## G. Organisation
 - [ ] Schulkalender (Termine, Ausflüge, Ferien)

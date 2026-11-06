@@ -3,10 +3,10 @@ import { Card } from '../components/Card'
 import { news } from '../data/demo'
 import { relativeDay } from '../lib/utils'
 
-export function Nachrichten() {
+export function Nachrichten({ embedded = false }: { embedded?: boolean }) {
   return (
     <div className="space-y-6">
-      <h1 className="text-2xl font-bold text-slate-900">Neuigkeiten</h1>
+      {!embedded && <h1 className="text-2xl font-bold text-slate-900">Neuigkeiten</h1>}
       <div className="space-y-4">
         {news.map((n) => (
           <Card key={n.id} className={n.important ? 'border-l-4 border-l-rose-500' : ''}>

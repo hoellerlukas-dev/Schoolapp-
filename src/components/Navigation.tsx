@@ -1,4 +1,4 @@
-import { BookOpen, CalendarDays, GraduationCap, Home, Megaphone } from 'lucide-react'
+import { BookOpen, CalendarDays, GraduationCap, Home, MessageCircle } from 'lucide-react'
 
 export type Page = 'start' | 'stundenplan' | 'hausaufgaben' | 'noten' | 'nachrichten'
 
@@ -7,7 +7,7 @@ export const navItems: { id: Page; label: string; icon: typeof Home }[] = [
   { id: 'stundenplan', label: 'Stundenplan', icon: CalendarDays },
   { id: 'hausaufgaben', label: 'Aufgaben', icon: BookOpen },
   { id: 'noten', label: 'Noten', icon: GraduationCap },
-  { id: 'nachrichten', label: 'News', icon: Megaphone },
+  { id: 'nachrichten', label: 'Nachrichten', icon: MessageCircle },
 ]
 
 type Props = { page: Page; onChange: (p: Page) => void; badges?: Partial<Record<Page, number>> }
