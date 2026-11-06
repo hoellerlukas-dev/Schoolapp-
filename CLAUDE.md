@@ -18,3 +18,6 @@ SchulApp: React + TypeScript + Tailwind (Vite). Beispieldaten in `src/data/demo.
 # Vorschau-Link
 Nach jeder Änderung: `npm run build`, dann `dist/index.html` + `dist/assets/*` als Artifact neu veröffentlichen
 (gleiche URL behalten): https://claude.ai/artifact/6jHovSc9bePKjcyzEttuxS
+
+# Skills (in `.claude/skills/`)
+frontend-design, webapp-testing, react-best-practices, web-design-guidelines – nur laden, wenn passend (Token sparen).
