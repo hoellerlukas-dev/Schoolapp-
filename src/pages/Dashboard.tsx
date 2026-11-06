@@ -2,7 +2,8 @@ import { AlertTriangle, ArrowRight, CheckCircle2, Clock, MapPin } from 'lucide-r
 import { Card, SubjectBadge } from '../components/Card'
 import type { Page } from '../components/Navigation'
 import { exams, grades, homework, news, periods, subjects, timetable, weekdays } from '../data/demo'
-import { average, daysUntil, relativeDay, todayIndex } from '../lib/utils'
+import { overallAverage } from '../lib/grades'
+import { daysUntil, relativeDay, todayIndex } from '../lib/utils'
 
 type Props = { done: string[]; onNavigate: (p: Page) => void }
 
@@ -11,7 +12,7 @@ export function Dashboard({ done, onNavigate }: Props) {
   const lessons = timetable[day]
   const openHomework = homework.filter((h) => !done.includes(h.id)).sort((a, b) => a.due.localeCompare(b.due))
   const nextExams = [...exams].sort((a, b) => a.date.localeCompare(b.date)).filter((e) => daysUntil(e.date) >= 0)
-  const avg = average(grades.map((g) => g.value))
+  const avg = overallAverage(grades) ?? 0
   const changes = lessons.filter((l) => l?.status && l.status !== 'normal').length
   const hour = new Date().getHours()
   const greeting = hour < 11 ? 'Guten Morgen' : hour < 18 ? 'Hallo' : 'Guten Abend'

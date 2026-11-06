@@ -81,19 +81,36 @@ export const exams: Exam[] = [
   { id: 'e3', subject: 'ph', title: 'Test: Elektrizität', date: inDays(12) },
 ]
 
-export type Grade = { subject: string; value: number; type: string; date: string }
+export type GradeKind = 'schriftlich' | 'muendlich'
+export type Grade = { id: string; subject: string; value: number; kind: GradeKind; title: string; date: string }
 
+// Sek I: Noten 1–6 (1,7 = 2+, 2,3 = 2-)
 export const grades: Grade[] = [
-  { subject: 'ma', value: 2, type: 'Schularbeit', date: inDays(-30) },
-  { subject: 'ma', value: 1, type: 'Mitarbeit', date: inDays(-10) },
-  { subject: 'de', value: 3, type: 'Schularbeit', date: inDays(-25) },
-  { subject: 'de', value: 2, type: 'Referat', date: inDays(-8) },
-  { subject: 'en', value: 1, type: 'Test', date: inDays(-20) },
-  { subject: 'en', value: 2, type: 'Mitarbeit', date: inDays(-5) },
-  { subject: 'bio', value: 2, type: 'Test', date: inDays(-15) },
-  { subject: 'ph', value: 3, type: 'Test', date: inDays(-12) },
-  { subject: 'inf', value: 1, type: 'Projekt', date: inDays(-3) },
-  { subject: 'ge', value: 2, type: 'Referat', date: inDays(-18) },
+  { id: 'g1', subject: 'ma', value: 2.3, kind: 'schriftlich', title: 'Klassenarbeit 1', date: inDays(-40) },
+  { id: 'g2', subject: 'ma', value: 2, kind: 'schriftlich', title: 'Klassenarbeit 2', date: inDays(-12) },
+  { id: 'g3', subject: 'ma', value: 1.7, kind: 'muendlich', title: 'Mitarbeit', date: inDays(-6) },
+  { id: 'g4', subject: 'de', value: 3, kind: 'schriftlich', title: 'Aufsatz', date: inDays(-25) },
+  { id: 'g5', subject: 'de', value: 2, kind: 'muendlich', title: 'Referat', date: inDays(-8) },
+  { id: 'g6', subject: 'en', value: 1.7, kind: 'schriftlich', title: 'Klassenarbeit', date: inDays(-20) },
+  { id: 'g7', subject: 'en', value: 2, kind: 'muendlich', title: 'Vokabeltest', date: inDays(-5) },
+  { id: 'g8', subject: 'bio', value: 2.3, kind: 'schriftlich', title: 'Test Zellen', date: inDays(-15) },
+  { id: 'g9', subject: 'ph', value: 3.7, kind: 'schriftlich', title: 'Test Mechanik', date: inDays(-14) },
+  { id: 'g10', subject: 'ph', value: 3, kind: 'muendlich', title: 'Mitarbeit', date: inDays(-4) },
+  { id: 'g11', subject: 'inf', value: 1, kind: 'muendlich', title: 'Projekt', date: inDays(-3) },
+  { id: 'g12', subject: 'ge', value: 2, kind: 'muendlich', title: 'Referat', date: inDays(-18) },
+]
+
+// Oberstufe: Punkte 0–15
+export const gradesPoints: Grade[] = [
+  { id: 'p1', subject: 'ma', value: 11, kind: 'schriftlich', title: 'Klausur 1', date: inDays(-40) },
+  { id: 'p2', subject: 'ma', value: 12, kind: 'muendlich', title: 'Mitarbeit', date: inDays(-6) },
+  { id: 'p3', subject: 'de', value: 9, kind: 'schriftlich', title: 'Klausur 1', date: inDays(-25) },
+  { id: 'p4', subject: 'de', value: 10, kind: 'muendlich', title: 'Referat', date: inDays(-8) },
+  { id: 'p5', subject: 'en', value: 13, kind: 'schriftlich', title: 'Klausur 1', date: inDays(-20) },
+  { id: 'p6', subject: 'en', value: 12, kind: 'muendlich', title: 'Mitarbeit', date: inDays(-5) },
+  { id: 'p7', subject: 'ph', value: 7, kind: 'schriftlich', title: 'Klausur 1', date: inDays(-14) },
+  { id: 'p8', subject: 'ph', value: 8, kind: 'muendlich', title: 'Mitarbeit', date: inDays(-4) },
+  { id: 'p9', subject: 'inf', value: 15, kind: 'muendlich', title: 'Projekt', date: inDays(-3) },
 ]
 
 export type News = { id: string; title: string; text: string; date: string; from: string; important?: boolean }
