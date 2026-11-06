@@ -14,3 +14,7 @@ SchulApp: React + TypeScript + Tailwind (Vite). Beispieldaten in `src/data/demo.
 - Kern: Stundenplan + Vertretungen, Noten + Durchschnittsrechner, Chat mit Lehrern, Fehlstunden/Entschuldigungen, Kalender. Moderne, einfache UI, Handy zuerst.
 - Technik: erst Web-App (PWA), später App-Store. Backend später: Supabase (EU).
 - Reihenfolge: 1) Design aller Seiten mit Beispieldaten 2) Login/Rollen 3) echte Daten.
+
+# Vorschau-Link
+Nach jeder Änderung: `npm run build`, dann `dist/index.html` + `dist/assets/*` als Artifact neu veröffentlichen
+(gleiche URL behalten): https://claude.ai/artifact/6jHovSc9bePKjcyzEttuxS
