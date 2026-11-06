@@ -23,12 +23,14 @@ Status: [x] fertig (Demo) · [ ] offen
 - [ ] Hausaufgaben vom Lehrer eintragen
 - [ ] Digitales Klassenbuch (Lehrstoff, Anwesenheit, Einträge/Vermerke)
 - [ ] Klausur-/Prüfungsplan (max. Tests pro Woche prüfen)
-- [ ] Dateiablage & Abgaben
+- [ ] Dateiablage & Abgaben (mit Erinnerung)
+- [ ] Schülerakte
 
 ## D. Noten
 - [x] Notenübersicht + Notenrechner (Schüler)
 - [ ] Notenverwaltung für Lehrer, Gewichtung je Fach
 - [ ] Zeugnisse / Notenkonferenz
+- [ ] Verhaltensnoten, Warnbriefe bei Versetzungsgefahr
 
 ## E. Abwesenheit
 - [ ] Krankmeldung durch Eltern
@@ -40,10 +42,15 @@ Status: [x] fertig (Demo) · [ ] offen
 - [ ] Chat / Messenger (Lehrer ↔ Eltern/Schüler)
 - [ ] Elternbriefe mit Lesebestätigung & Rückmeldung (z. B. Einverständnis Ausflug)
 - [ ] Umfragen
+- [ ] Geplante Nachrichten, Verteiler, automatische Übersetzung für Eltern
 - [ ] Sprechstunden & Elternsprechtag buchen
 
 ## G. Organisation
 - [ ] Schulkalender (Termine, Ausflüge, Ferien)
 - [ ] AG-/Kurswahl
 - [ ] Mensa-Bestellung
+- [ ] Ganztag/Nachmittagsbetreuung (Anwesenheit, Betreuer)
+- [ ] Zahlungen (Klassenfahrt, Kopiergeld)
+- [ ] Nachsitzen
+- [ ] Startseite mit anpassbaren Kacheln
 - [ ] Schulbuch-/Bibliotheksausleihe
